@@ -1,0 +1,13 @@
+---
+pagination:
+  data: collections.alleysByState
+  alias: theKey
+  size: "10"
+permalink: "/{{ theKey }}/"
+---
+
+<ul>
+{% for alley in collections.alleysByState[theKey] %}
+<li>{{ alley.data.alley }}</li>
+{% endfor %}
+</ul>
