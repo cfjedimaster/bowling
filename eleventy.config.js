@@ -100,6 +100,7 @@ module.exports = function(eleventyConfig) {
 	  return allAlleys;
 	});
 
+	/*
 	eleventyConfig.addCollection("alleysByState", (collectionApi) => {
 	  const allAlleys = collectionApi.getFilteredByTag("alleys"); // or whatever you do to get all the alleys pages;
 	  const byState = {};
@@ -109,6 +110,50 @@ module.exports = function(eleventyConfig) {
 	      byState[state] = [];
 	    }
 	    byState[state].push(alley);
+	  }
+	  return byState;
+	});
+	*/
+
+	eleventyConfig.addCollection("states", (collectionApi) => {
+	  const allAlleys = collectionApi.getFilteredByTag("alleys"); // or whatever you do to get all the alleys pages;
+	  const states = new Set();
+	  for (const alley of allAlleys) {
+	    const { state } = alley.data;
+		states.add(state);
+	  }
+	  return Array.from(states);
+	});
+
+	eleventyConfig.addCollection("cities", (collectionApi) => {
+	  const allAlleys = collectionApi.getFilteredByTag("alleys"); // or whatever you do to get all the alleys pages;
+	  const cities = [];
+	  for (const alley of allAlleys) {
+	    const { state, city } = alley.data;
+		if(!cities.find(e => e.state === state && e.city === city)) {
+			cities.push({ city, state });
+		}
+	  }
+	  return cities;
+	});
+
+	eleventyConfig.addFilter("citiesForState", function(state,cities) {
+		console.log('testing filter', state, cities.filter(c => c.state === state));
+		return cities.filter(c => c.state === state).map(c => c.city);
+	});
+
+	eleventyConfig.addCollection("citiesByState", (collectionApi) => {
+	  const allAlleys = collectionApi.getFilteredByTag("alleys"); // or whatever you do to get all the alleys pages;
+	  const byState = {};
+	  for (const alley of allAlleys) {
+	  	console.log('alley', alley.data.city, alley.data.state);
+	  	/*
+	    const { state, city } = alley.data;
+	    if (byState[state] === undefined) {
+	      byState[state] = [];
+	    }
+	    byState[state].push(alley);
+		*/
 	  }
 	  return byState;
 	});
