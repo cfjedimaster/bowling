@@ -2,8 +2,8 @@
 pagination:
   data: collections.alleysByState
   alias: theKey
-  size: "10"
-permalink: "/{{ theKey }}/"
+  size: 1
+permalink: "/{{ theKey | slugify }}/"
 ---
 
 <ul>
