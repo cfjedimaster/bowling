@@ -100,20 +100,7 @@ module.exports = function(eleventyConfig) {
 	  return allAlleys;
 	});
 
-	/*
-	eleventyConfig.addCollection("alleysByState", (collectionApi) => {
-	  const allAlleys = collectionApi.getFilteredByTag("alleys"); // or whatever you do to get all the alleys pages;
-	  const byState = {};
-	  for (const alley of allAlleys) {
-	    const { state } = alley.data;
-	    if (byState[state] === undefined) {
-	      byState[state] = [];
-	    }
-	    byState[state].push(alley);
-	  }
-	  return byState;
-	});
-	*/
+
 
 	eleventyConfig.addCollection("states", (collectionApi) => {
 	  const allAlleys = collectionApi.getFilteredByTag("alleys"); // or whatever you do to get all the alleys pages;
@@ -142,28 +129,23 @@ module.exports = function(eleventyConfig) {
 		return cities.filter(c => c.state === state).map(c => c.city);
 	});
 
-	eleventyConfig.addCollection("citiesByState", (collectionApi) => {
-	  const allAlleys = collectionApi.getFilteredByTag("alleys"); // or whatever you do to get all the alleys pages;
-	  const byState = {};
-	  for (const alley of allAlleys) {
-	  	console.log('alley', alley.data.city, alley.data.state);
-	  	/*
-	    const { state, city } = alley.data;
-	    if (byState[state] === undefined) {
-	      byState[state] = [];
-	    }
-	    byState[state].push(alley);
-		*/
-	  }
-	  return byState;
+	eleventyConfig.addFilter("alleysForCity", function(cityOb, alleyCollection) {
+		for(alley in alleyCollection) {
+			let [ state, city ] = alley.split('/');
+			if(state === cityOb.state && city === cityOb.city) {
+				return alleyCollection[alley].alleys;
+			}
+		}
+		return [];
 	});
 
+
 	eleventyConfig.addCollection("alleysByCity", (collectionApi) => {
-	  const allAlleys = collectionApi.getFilteredByGlob("alleys"); // or whatever you do to get all the alleys pages;
+	  const allAlleys = collectionApi.getFilteredByTag("alleys"); // or whatever you do to get all the alleys pages;
 	  const byCity = {};
 	  for (const alley of allAlleys) {
 	    const { city, state } = alley.data;
-	    const key = "${state}/${city}";
+	    const key = `${state}/${city}`;
 	    if (byCity[key] === undefined) {
 	      byCity[key] = { city, state, alleys: [] };
 	    }

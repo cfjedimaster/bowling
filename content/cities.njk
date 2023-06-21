@@ -6,4 +6,11 @@ pagination:
 permalink: "/{{ cityob.state | slugify }}/{{ cityob.city | slugify }}/"
 ---
 
-tbd, alleys for city
+
+{% set alleys = cityob | alleysForCity(collections.alleysByCity) %}
+
+<ul>
+{% for alley in alleys %}
+  <li><a href="{{ alley.url }}">{{ alley.data.title }}</a></li>
+{% endfor %}
+</ul>
