@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: ashlyn
-permalink: /ashlyn/
+﻿nonslashpermalink2: ashlyn
+permalink2: /ashlyn/
 alley: Ashlyn
 city: Mcalester
 state: Oklahoma

@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: egypt
-permalink: /egypt/
+﻿nonslashpermalink2: egypt
+permalink2: /egypt/
 alley: Egypt
 city: Portland
 state: Oregon

@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: harpy-eagle
-permalink: /harpy-eagle/
+﻿nonslashpermalink2: harpy-eagle
+permalink2: /harpy-eagle/
 alley: Harpy Eagle
 city: Cedar City
 state: Utah

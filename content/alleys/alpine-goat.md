@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: alpine-goat
-permalink: /alpine-goat/
+﻿nonslashpermalink2: alpine-goat
+permalink2: /alpine-goat/
 alley: Alpine Goat
 city: Portland
 state: Oregon

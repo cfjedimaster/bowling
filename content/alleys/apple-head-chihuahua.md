@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: apple-head-chihuahua
-permalink: /apple-head-chihuahua/
+﻿nonslashpermalink2: apple-head-chihuahua
+permalink2: /apple-head-chihuahua/
 alley: Apple Head Chihuahua
 city: Sunriver
 state: Oregon

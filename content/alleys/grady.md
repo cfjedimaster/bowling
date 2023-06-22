@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: grady
-permalink: /grady/
+﻿nonslashpermalink2: grady
+permalink2: /grady/
 alley: Grady
 city: DC
 state: DC

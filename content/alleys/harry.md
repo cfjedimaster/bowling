@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: harry
-permalink: /harry/
+﻿nonslashpermalink2: harry
+permalink2: /harry/
 alley: Harry
 city: Albion
 state: Indiana

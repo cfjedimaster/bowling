@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: golden-masked-owl
-permalink: /golden-masked-owl/
+﻿nonslashpermalink2: golden-masked-owl
+permalink2: /golden-masked-owl/
 alley: Golden Masked Owl
 city: Chattanooga
 state: Tennessee

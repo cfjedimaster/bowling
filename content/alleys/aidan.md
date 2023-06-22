@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: aidan
-permalink: /aidan/
+﻿nonslashpermalink2: aidan
+permalink2: /aidan/
 alley: Aidan
 city: East Haven
 state: Connecticut

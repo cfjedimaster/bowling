@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: alanna
-permalink: /alanna/
+﻿nonslashpermalink2: alanna
+permalink2: /alanna/
 alley: Alanna
 city: La Vista
 state: Nebraska

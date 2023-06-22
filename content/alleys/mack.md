@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: mack
-permalink: /mack/
+﻿nonslashpermalink2: mack
+permalink2: /mack/
 alley: Mack
 city: Atlanta
 state: Georgia

@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: fiddler-crab
-permalink: /fiddler-crab/
+﻿nonslashpermalink2: fiddler-crab
+permalink2: /fiddler-crab/
 alley: Fiddler Crab
 city: Nashville
 state: Tennessee

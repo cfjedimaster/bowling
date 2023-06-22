@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: adelie-penguin
-permalink: /adelie-penguin/
+﻿nonslashpermalink2: adelie-penguin
+permalink2: /adelie-penguin/
 alley: Adelie Penguin
 city: Portland
 state: Oregon

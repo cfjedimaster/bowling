@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: larry
-permalink: /larry/
+﻿nonslashpermalink2: larry
+permalink2: /larry/
 alley: Larry
 city: Wichita
 state: Kansas

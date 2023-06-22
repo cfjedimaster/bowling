@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: amayah
-permalink: /amayah/
+﻿nonslashpermalink2: amayah
+permalink2: /amayah/
 alley: Amayah
 city: Sparks
 state: Nevada

@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: bowhead-whale
-permalink: /bowhead-whale/
+﻿nonslashpermalink2: bowhead-whale
+permalink2: /bowhead-whale/
 alley: Bowhead Whale
 city: Cumberland
 state: Rhode Island

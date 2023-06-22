@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: bottlenose-dolphin
-permalink: /bottlenose-dolphin/
+﻿nonslashpermalink2: bottlenose-dolphin
+permalink2: /bottlenose-dolphin/
 alley: Bottlenose Dolphin
 city: West Greenwich
 state: Rhode Island

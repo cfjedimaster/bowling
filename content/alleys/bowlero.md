@@ -1,5 +1,5 @@
 ---
-permalink: /bowlero/
+permalink2: /bowlero/
 
 title: Bowlero
 

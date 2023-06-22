@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: brendan
-permalink: /brendan/
+﻿nonslashpermalink2: brendan
+permalink2: /brendan/
 alley: Brendan
 city: Olathe
 state: Kansas

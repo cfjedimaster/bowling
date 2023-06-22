@@ -98,7 +98,6 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addCollection("states", (collectionApi) => {
 	  const allAlleys = collectionApi.getFilteredByTag("alleys"); // or whatever you do to get all the alleys pages;
-	  console.log('allAlleys', allAlleys.length);
 	  const states = new Set();
 	  for (const alley of allAlleys) {
 	    const { state } = alley.data;
@@ -120,15 +119,16 @@ module.exports = function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("citiesForState", function(state,cities) {
-		return cities.filter(c => c.state === state).map(c => c.city);
+		return cities.filter(c => c.state.toLowerCase() === state.toLowerCase()).map(c => c.city);
 	});
 
 	eleventyConfig.addFilter("alleysForCity", function(cityOb, alleyCollection) {
-		alleyCollection.forEach(alley => {
-			if(alley.state === cityOb.state && alley.city === cityOb.city) {
+		for(let i=0; i<alleyCollection.length;i++) {
+			let alley = alleyCollection[i];
+			if(alley.state.toLowerCase() === cityOb.state.toLowerCase() && alley.city.toLowerCase() === cityOb.city.toLowerCase()) {
 				return alley.alleys;
 			}
-		});
+		};
 		return [];
 	});
 

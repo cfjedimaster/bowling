@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: beefalo
-permalink: /beefalo/
+﻿nonslashpermalink2: beefalo
+permalink2: /beefalo/
 alley: Beefalo
 city: Portland
 state: Oregon

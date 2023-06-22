@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: alayna
-permalink: /alayna/
+﻿nonslashpermalink2: alayna
+permalink2: /alayna/
 alley: Alayna
 city: Freeport
 state: Maine

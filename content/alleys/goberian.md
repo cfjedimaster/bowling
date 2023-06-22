@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: goberian
-permalink: /goberian/
+﻿nonslashpermalink2: goberian
+permalink2: /goberian/
 alley: Goberian
 city: Kingsport
 state: Tennessee

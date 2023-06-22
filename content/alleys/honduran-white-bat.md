@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: honduran-white-bat
-permalink: /honduran-white-bat/
+﻿nonslashpermalink2: honduran-white-bat
+permalink2: /honduran-white-bat/
 alley: Honduran White Bat
 city: Waterbury
 state: Vermont

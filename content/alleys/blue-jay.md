@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: blue-jay
-permalink: /blue-jay/
+﻿nonslashpermalink2: blue-jay
+permalink2: /blue-jay/
 alley: Blue Jay
 city: Warwick
 state: Rhode Island

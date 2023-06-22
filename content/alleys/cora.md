@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: cora
-permalink: /cora/
+﻿nonslashpermalink2: cora
+permalink2: /cora/
 alley: Cora
 city: Hingham
 state: Massachusetts

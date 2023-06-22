@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: bichon-frise
-permalink: /bichon-frise/
+﻿nonslashpermalink2: bichon-frise
+permalink2: /bichon-frise/
 alley: Bichon Frise
 city: Silverton
 state: Oregon

@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: luz
-permalink: /luz/
+﻿nonslashpermalink2: luz
+permalink2: /luz/
 alley: Luz
 city: Seaside
 state: Oregon

@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: eastern-lowland-gorilla
-permalink: /eastern-lowland-gorilla/
+﻿nonslashpermalink2: eastern-lowland-gorilla
+permalink2: /eastern-lowland-gorilla/
 alley: Eastern Lowland Gorilla
 city: Springfield
 state: Tennessee

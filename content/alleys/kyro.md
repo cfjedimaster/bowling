@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: kyro
-permalink: /kyro/
+﻿nonslashpermalink2: kyro
+permalink2: /kyro/
 alley: Kyro
 city: Greenfield
 state: Indiana

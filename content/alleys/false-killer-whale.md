@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: false-killer-whale
-permalink: /false-killer-whale/
+﻿nonslashpermalink2: false-killer-whale
+permalink2: /false-killer-whale/
 alley: False Killer Whale
 city: Nashville
 state: Tennessee

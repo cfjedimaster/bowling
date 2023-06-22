@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: elephant-shrew
-permalink: /elephant-shrew/
+﻿nonslashpermalink2: elephant-shrew
+permalink2: /elephant-shrew/
 alley: Elephant Shrew
 city: Dayton
 state: Tennessee

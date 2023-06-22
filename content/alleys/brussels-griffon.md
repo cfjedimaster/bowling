@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: brussels-griffon
-permalink: /brussels-griffon/
+﻿nonslashpermalink2: brussels-griffon
+permalink2: /brussels-griffon/
 alley: Brussels Griffon
 city: Columbia
 state: South Carolina

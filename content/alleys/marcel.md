@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: marcel
-permalink: /marcel/
+﻿nonslashpermalink2: marcel
+permalink2: /marcel/
 alley: Marcel
 city: Jasper
 state: Indiana

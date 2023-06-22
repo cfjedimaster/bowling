@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: ezekiel
-permalink: /ezekiel/
+﻿nonslashpermalink2: ezekiel
+permalink2: /ezekiel/
 alley: Ezekiel
 city: Fairbanks
 state: Alaska

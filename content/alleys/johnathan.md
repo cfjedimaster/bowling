@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: johnathan
-permalink: /johnathan/
+﻿nonslashpermalink2: johnathan
+permalink2: /johnathan/
 alley: Johnathan
 city: Marietta
 state: Georgia

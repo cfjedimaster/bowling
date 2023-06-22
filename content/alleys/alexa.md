@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: alexa
-permalink: /alexa/
+﻿nonslashpermalink2: alexa
+permalink2: /alexa/
 alley: Alexa
 city: Scottsbluff
 state: Nebraska

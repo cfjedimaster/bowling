@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: golden-newfie
-permalink: /golden-newfie/
+﻿nonslashpermalink2: golden-newfie
+permalink2: /golden-newfie/
 alley: Golden Newfie
 city: Sparta
 state: Tennessee

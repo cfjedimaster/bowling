@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: leandro
-permalink: /leandro/
+﻿nonslashpermalink2: leandro
+permalink2: /leandro/
 alley: Leandro
 city: Monroe
 state: Georgia

@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: gerberian-shepsky
-permalink: /gerberian-shepsky/
+﻿nonslashpermalink2: gerberian-shepsky
+permalink2: /gerberian-shepsky/
 alley: Gerberian Shepsky
 city: Knoxville
 state: Tennessee

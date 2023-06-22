@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: laura
-permalink: /laura/
+﻿nonslashpermalink2: laura
+permalink2: /laura/
 alley: Laura
 city: Waldoboro
 state: Maine

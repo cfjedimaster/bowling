@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: american-water-spaniel
-permalink: /american-water-spaniel/
+﻿nonslashpermalink2: american-water-spaniel
+permalink2: /american-water-spaniel/
 alley: American Water Spaniel
 city: Portland
 state: Oregon

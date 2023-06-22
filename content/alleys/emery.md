@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: emery
-permalink: /emery/
+﻿nonslashpermalink2: emery
+permalink2: /emery/
 alley: Emery
 city: Plymouth
 state: Massachusetts

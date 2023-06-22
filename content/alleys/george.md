@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: george
-permalink: /george/
+﻿nonslashpermalink2: george
+permalink2: /george/
 alley: George
 city: Fayetteville
 state: Arkansas

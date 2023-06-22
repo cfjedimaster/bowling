@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: darren
-permalink: /darren/
+﻿nonslashpermalink2: darren
+permalink2: /darren/
 alley: Darren
 city: Beloit
 state: Kansas

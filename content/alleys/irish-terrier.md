@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: irish-terrier
-permalink: /irish-terrier/
+﻿nonslashpermalink2: irish-terrier
+permalink2: /irish-terrier/
 alley: Irish Terrier
 city: Killington
 state: Vermont

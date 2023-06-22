@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: harp-seal
-permalink: /harp-seal/
+﻿nonslashpermalink2: harp-seal
+permalink2: /harp-seal/
 alley: Harp Seal
 city: Midvale
 state: Utah

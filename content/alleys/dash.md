@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: dash
-permalink: /dash/
+﻿nonslashpermalink2: dash
+permalink2: /dash/
 alley: Dash
 city: Rochester
 state: Indiana

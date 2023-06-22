@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: cedric
-permalink: /cedric/
+﻿nonslashpermalink2: cedric
+permalink2: /cedric/
 alley: Cedric
 city: Maysville
 state: Kentucky

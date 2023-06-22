@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: lorenzo
-permalink: /lorenzo/
+﻿nonslashpermalink2: lorenzo
+permalink2: /lorenzo/
 alley: Lorenzo
 city: Norfork
 state: Arkansas

@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: lydia
-permalink: /lydia/
+﻿nonslashpermalink2: lydia
+permalink2: /lydia/
 alley: Lydia
 city: Florence
 state: Massachusetts

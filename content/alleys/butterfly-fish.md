@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: butterfly-fish
-permalink: /butterfly-fish/
+﻿nonslashpermalink2: butterfly-fish
+permalink2: /butterfly-fish/
 alley: Butterfly Fish
 city: Florence
 state: South Carolina

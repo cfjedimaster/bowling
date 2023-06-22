@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: cockatoo
-permalink: /cockatoo/
+﻿nonslashpermalink2: cockatoo
+permalink2: /cockatoo/
 alley: Cockatoo
 city: Lancaster
 state: South Carolina

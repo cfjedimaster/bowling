@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: luis
-permalink: /luis/
+﻿nonslashpermalink2: luis
+permalink2: /luis/
 alley: Luis
 city: Fayetteville
 state: Arkansas

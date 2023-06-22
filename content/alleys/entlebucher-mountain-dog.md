@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: entlebucher-mountain-dog
-permalink: /entlebucher-mountain-dog/
+﻿nonslashpermalink2: entlebucher-mountain-dog
+permalink2: /entlebucher-mountain-dog/
 alley: Entlebucher Mountain Dog
 city: Pigeon Forge
 state: Tennessee

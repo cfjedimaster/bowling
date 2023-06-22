@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: bat
-permalink: /bat/
+﻿nonslashpermalink2: bat
+permalink2: /bat/
 alley: Bat
 city: Salem
 state: Oregon

@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: ivan
-permalink: /ivan/
+﻿nonslashpermalink2: ivan
+permalink2: /ivan/
 alley: Ivan
 city: Gilbert
 state: Arizona

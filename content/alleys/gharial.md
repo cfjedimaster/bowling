@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: gharial
-permalink: /gharial/
+﻿nonslashpermalink2: gharial
+permalink2: /gharial/
 alley: Gharial
 city: Knoxville
 state: Tennessee

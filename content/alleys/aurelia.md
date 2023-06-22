@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: aurelia
-permalink: /aurelia/
+﻿nonslashpermalink2: aurelia
+permalink2: /aurelia/
 alley: Aurelia
 city: Kalispell
 state: Montana

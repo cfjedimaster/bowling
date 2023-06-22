@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: jaylah
-permalink: /jaylah/
+﻿nonslashpermalink2: jaylah
+permalink2: /jaylah/
 alley: Jaylah
 city: Portland
 state: Oregon

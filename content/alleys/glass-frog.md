@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: glass-frog
-permalink: /glass-frog/
+﻿nonslashpermalink2: glass-frog
+permalink2: /glass-frog/
 alley: Glass Frog
 city: Nashville
 state: Tennessee

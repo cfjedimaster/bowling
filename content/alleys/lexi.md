@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: lexi
-permalink: /lexi/
+﻿nonslashpermalink2: lexi
+permalink2: /lexi/
 alley: Lexi
 city: Miles City
 state: Montana

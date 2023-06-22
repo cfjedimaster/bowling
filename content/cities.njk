@@ -9,6 +9,7 @@ permalink: "/{{ cityob.state | slugify }}/{{ cityob.city | slugify }}/"
 
 {% set alleys = cityob | alleysForCity(collections.alleysByCity) %}
 
+ 
 <ul>
 {% for alley in alleys %}
   <li><a href="{{ alley.url }}">{{ alley.data.title }}</a></li>

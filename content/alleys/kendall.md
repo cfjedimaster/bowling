@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: kendall
-permalink: /kendall/
+﻿nonslashpermalink2: kendall
+permalink2: /kendall/
 alley: Kendall
 city: Portland
 state: Maine

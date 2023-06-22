@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: ellie
-permalink: /ellie/
+﻿nonslashpermalink2: ellie
+permalink2: /ellie/
 alley: Ellie
 city: Essex
 state: Massachusetts

@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: asian-elephant
-permalink: /asian-elephant/
+﻿nonslashpermalink2: asian-elephant
+permalink2: /asian-elephant/
 alley: Asian Elephant
 city: Portland
 state: Oregon

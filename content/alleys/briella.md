@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: briella
-permalink: /briella/
+﻿nonslashpermalink2: briella
+permalink2: /briella/
 alley: Briella
 city: Bridgton
 state: Maine

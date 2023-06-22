@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: english-shepherd
-permalink: /english-shepherd/
+﻿nonslashpermalink2: english-shepherd
+permalink2: /english-shepherd/
 alley: English Shepherd
 city: Gatlinburg
 state: Tennessee

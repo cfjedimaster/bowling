@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: gabrielle
-permalink: /gabrielle/
+﻿nonslashpermalink2: gabrielle
+permalink2: /gabrielle/
 alley: Gabrielle
 city: Butte
 state: Montana

@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: greater-swiss-mountain-dog
-permalink: /greater-swiss-mountain-dog/
+﻿nonslashpermalink2: greater-swiss-mountain-dog
+permalink2: /greater-swiss-mountain-dog/
 alley: Greater Swiss Mountain Dog
 city: Salt Lake City
 state: Utah

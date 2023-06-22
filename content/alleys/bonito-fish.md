@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: bonito-fish
-permalink: /bonito-fish/
+﻿nonslashpermalink2: bonito-fish
+permalink2: /bonito-fish/
 alley: Bonito Fish
 city: Pawtucket
 state: Rhode Island

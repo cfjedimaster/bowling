@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: great-white-shark
-permalink: /great-white-shark/
+﻿nonslashpermalink2: great-white-shark
+permalink2: /great-white-shark/
 alley: Great White Shark
 city: Salt Lake City
 state: Utah

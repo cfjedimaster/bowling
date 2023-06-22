@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: leopard-tortoise
-permalink: /leopard-tortoise/
+﻿nonslashpermalink2: leopard-tortoise
+permalink2: /leopard-tortoise/
 alley: Leopard Tortoise
 city: Jackson
 state: Wyoming

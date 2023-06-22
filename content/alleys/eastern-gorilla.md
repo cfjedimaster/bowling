@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: eastern-gorilla
-permalink: /eastern-gorilla/
+﻿nonslashpermalink2: eastern-gorilla
+permalink2: /eastern-gorilla/
 alley: Eastern Gorilla
 city: Memphis
 state: Tennessee

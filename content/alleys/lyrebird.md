@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: lyrebird
-permalink: /lyrebird/
+﻿nonslashpermalink2: lyrebird
+permalink2: /lyrebird/
 alley: Lyrebird
 city: Jackson
 state: Wyoming

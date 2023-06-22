@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: jesus
-permalink: /jesus/
+﻿nonslashpermalink2: jesus
+permalink2: /jesus/
 alley: Jesus
 city: Chandler
 state: Arizona

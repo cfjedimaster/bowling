@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: cason
-permalink: /cason/
+﻿nonslashpermalink2: cason
+permalink2: /cason/
 alley: Cason
 city: Nashville
 state: Indiana

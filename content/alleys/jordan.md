@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: jordan
-permalink: /jordan/
+﻿nonslashpermalink2: jordan
+permalink2: /jordan/
 alley: Jordan
 city: Kalispell
 state: Montana

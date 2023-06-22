@@ -1,6 +1,6 @@
 ---
-﻿nonslashpermalink: caspian
-permalink: /caspian/
+﻿nonslashpermalink2: caspian
+permalink2: /caspian/
 alley: Caspian
 city: Porter
 state: Indiana
