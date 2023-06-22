@@ -9,6 +9,7 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
+const alleys11tydata = require("./content/alleys/alleys.11tydata.js");
 
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
@@ -94,20 +95,14 @@ module.exports = function(eleventyConfig) {
 
 	// COLLECTION BUILDING VIA HELP
 
-	// The basic alleys don’t need any special processing.
-	eleventyConfig.addCollection("alleys", (collectionApi) => {
-	  const allAlleys = collectionApi.getFilteredByTag("content/alleys/*.md"); // or whatever you do to get all the alleys pages
-	  return allAlleys;
-	});
-
-
 
 	eleventyConfig.addCollection("states", (collectionApi) => {
 	  const allAlleys = collectionApi.getFilteredByTag("alleys"); // or whatever you do to get all the alleys pages;
+	  console.log('allAlleys', allAlleys.length);
 	  const states = new Set();
 	  for (const alley of allAlleys) {
 	    const { state } = alley.data;
-		states.add(state);
+		states.add(state.toLowerCase());
 	  }
 	  return Array.from(states);
 	});
@@ -117,7 +112,7 @@ module.exports = function(eleventyConfig) {
 	  const cities = [];
 	  for (const alley of allAlleys) {
 	    const { state, city } = alley.data;
-		if(!cities.find(e => e.state === state && e.city === city)) {
+		if(!cities.find(e => e.state.toLowerCase() === state.toLowerCase() && e.city.toLowerCase() === city.toLowerCase())) {
 			cities.push({ city, state });
 		}
 	  }
@@ -125,20 +120,17 @@ module.exports = function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("citiesForState", function(state,cities) {
-		console.log('testing filter', state, cities.filter(c => c.state === state));
 		return cities.filter(c => c.state === state).map(c => c.city);
 	});
 
 	eleventyConfig.addFilter("alleysForCity", function(cityOb, alleyCollection) {
-		for(alley in alleyCollection) {
-			let [ state, city ] = alley.split('/');
-			if(state === cityOb.state && city === cityOb.city) {
-				return alleyCollection[alley].alleys;
+		alleyCollection.forEach(alley => {
+			if(alley.state === cityOb.state && alley.city === cityOb.city) {
+				return alley.alleys;
 			}
-		}
+		});
 		return [];
 	});
-
 
 	eleventyConfig.addCollection("alleysByCity", (collectionApi) => {
 	  const allAlleys = collectionApi.getFilteredByTag("alleys"); // or whatever you do to get all the alleys pages;
@@ -146,12 +138,15 @@ module.exports = function(eleventyConfig) {
 	  for (const alley of allAlleys) {
 	    const { city, state } = alley.data;
 	    const key = `${state}/${city}`;
+		//console.log('key',key);
 	    if (byCity[key] === undefined) {
 	      byCity[key] = { city, state, alleys: [] };
-	    }
+	    } 
 	    byCity[key].alleys.push(alley);
 	  }
-	  return byCity;
+	  let cityArr = [];
+	  for(c in byCity) cityArr.push(byCity[c]);
+	  return cityArr;
 	});
 
 

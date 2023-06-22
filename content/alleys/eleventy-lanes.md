@@ -1,6 +1,4 @@
 ---
-layout: layouts/post.njk
-
 title: Eleventy Lanes
 
 alley: Eleventy Lanes

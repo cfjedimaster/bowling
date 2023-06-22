@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+permalink: /bowlero/
 
 title: Bowlero
 

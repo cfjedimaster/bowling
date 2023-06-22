@@ -10,7 +10,6 @@ permalink: "/{{ state | slugify }}/"
 
 <ul>
 {% for city in cities %}
-hello
   <li><a href="/{{ state | slugify }}/{{ city | slugify }}/">{{ city }}</a></li>
 {% endfor %}
 </ul>
